@@ -15,9 +15,9 @@
 // d3.selectAll() finds ALL elements (like querySelectorAll)
 
 d3.select('#demo-1')
-    .style('color', 'blue')
+    .style('color', 'darkviolet')
     .style('font-size', '20px')
-    .text('This text was changed by D3!');
+    .text('This text was changed by Joyce with D3!');
 
 // TODO: change the text above to add your name
 // TODO: change the color to something else you like // keep in mind color contrast
@@ -30,3 +30,7 @@ d3.select('#demo-1')
     .style('background-color', 'lightgray');
 
 // TODO: append a new element with your favorite food and style it with a different background color
+d3.select('#demo-1')
+    .append('p')
+    .text('My favorite food: taco')
+    .style('background-color', 'lightyellow');
